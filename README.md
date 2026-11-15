@@ -1,30 +1,128 @@
 <div align="center">
-  <img src="banner.svg" alt="Xorange-Linux Banner" width="100%" />
-  <br />
-  <img src="lgo.png" alt="Xorange-Linux Logo" width="115" />
-  <br /><br />
-  <img src="badges.svg" alt="Arch Linux • Lemon • Pacman • GPL-2.0" width="680" />
-  <br /><br />
+
+  <img src="lgo.png" alt="Xorange-Linux Logo" width="130" />
+
+  <h1>Xorange-Linux</h1>
+
   <p>
-    <a href="#about"><kbd> About </kbd></a>&nbsp;&nbsp;
-    <a href="#system-requirements"><kbd> Requirements </kbd></a>&nbsp;&nbsp;
-    <a href="#the-story"><kbd> Story </kbd></a>&nbsp;&nbsp;
-    <a href="https://github.com"><kbd> Download ISO </kbd></a>
+    <strong>A lightweight, fast, and user-friendly Linux distribution built on Arch Linux.</strong>
   </p>
+
+  <p>
+    <kbd> Base: Arch Linux </kbd>&nbsp;
+    <kbd> Codename: Lemon </kbd>&nbsp;
+    <kbd> Package Manager: Pacman </kbd>&nbsp;
+    <kbd> License: GPL-2.0 </kbd>
+  </p>
+
+  <br />
+
+  <p>
+    <a href="#-overview"><kbd> 📖 Overview </kbd></a>&nbsp;&nbsp;
+    <a href="#-key-features"><kbd> ✨ Features </kbd></a>&nbsp;&nbsp;
+    <a href="#-system-requirements"><kbd> ⚙️ Requirements </kbd></a>&nbsp;&nbsp;
+    <a href="#-installation-guide"><kbd> 💿 Installation </kbd></a>&nbsp;&nbsp;
+    <a href="https://github.com"><kbd> 🚀 Download ISO </kbd></a>
+  </p>
+
 </div>
 
 ---
 
-## About
-* **Arch Linux Base:** Built on Arch Linux with a rolling-release model and Pacman.
-* **Old Hardware Friendly:** Optimized for low resource usage on older laptops (tested on an Intel Core i3-3217U).
+## 📖 Overview
 
-## System Requirements
-* **CPU:** 1 GHz (1 Core, 64-bit)
-* **RAM:** 700 MiB minimum
-* **Storage:** 15 GiB for a base installation
+**Xorange-Linux** (Codename: **Lemon**) is an independent, lightweight operating system designed to run fast and stay out of your way—especially on older or low-spec laptops. 
 
-## The Story
-* **Development:** Transitioned from Debian to Arch and eventually plans a future Linux From Scratch (LFS) build.
-* **Creator & Developer:** [motochann / Nyeinchankyaw](https://github.com)
-* **Download:** Available via the [Releases Page](https://github.com).
+Originally started on a Debian Testing base, Xorange-Linux has been completely rebuilt on **Arch Linux** to take advantage of rolling-release packages, a minimal core footprint, and full control over every component installed on the system.
+
+> [!NOTE]
+> **Hardware Tested:** Xorange-Linux is developed, compiled, and tested directly on an **Intel Core i3-3217U** laptop to ensure smooth performance without needing modern high-end specs.
+
+---
+
+## ✨ Key Features
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Rolling-Release Arch Base</h3>
+      <p>Powered by <b>Arch Linux</b>, giving you up-to-date kernels, drivers, and system libraries without waiting years for major point releases.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📦 Pacman Package Management</h3>
+      <p>Install, update, and remove thousands of packages cleanly and quickly using Arch's native <b>Pacman</b> package manager.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🪶 Ultra-Light Footprint</h3>
+      <p>Stripped of heavy background services and unnecessary bloat so your CPU and RAM stay free for the apps you actually use.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔓 Free & Open Source</h3>
+      <p>Licensed under <b>GPL-2.0</b>. Anyone can inspect, modify, fork, or contribute to the distribution.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## ⚙️ System Requirements
+
+| Component | Minimum Specification | Recommended Specification | Notes |
+| :--- | :--- | :--- | :--- |
+| **Architecture** | x86_64 (64-bit) | x86_64 (64-bit) | 64-bit processor required |
+| **CPU** | 1 GHz (1 Core) | Dual-Core 1.8 GHz+ | Built & tested on Intel Core i3-3217U |
+| **RAM** | 700 MiB | 2 GiB or more | Low idle memory usage out of the box |
+| **Storage** | 15 GiB | 25 GiB or more | SSD recommended for faster boot & updates |
+| **Boot Media** | USB Drive (4 GiB+) | USB 3.0 Drive (8 GiB+) | Supports standard ISO flashing tools |
+
+---
+
+## 💿 Installation Guide
+
+1. **Download the ISO:** Go to the [**Releases Page**](https://github.com) and download the latest Xorange-Linux `.iso` file.
+2. **Create a Bootable USB:** Flash the ISO to a USB stick using **Ventoy**, **Rufus** (Windows), or `dd` (Linux):
+   ```bash
+   sudo dd bs=4M if=xorange-linux.iso of=/dev/sdX status=progress oflag=sync
+   ```
+   *(Replace `/dev/sdX` with your actual USB device name.)*
+3. **Boot & Install:** Restart your PC, open your BIOS/UEFI boot menu, select your USB drive, and follow the installation setup.
+
+---
+
+## 🍊 Project Background & Roadmap
+
+<details>
+<summary><b>Click to read the full story behind Xorange-Linux</b></summary>
+<br />
+
+* **Why "Xorange"?** The **"X"** originally stood for the X11 compositor—though moving away from X11 is a priority due to memory leaks and legacy overhead.
+* **Why Codename "Lemon"?** The release codename shifted from *Orange* to *Lemon* because citrus is citrus.
+* **Why the Switch from Debian to Arch?** Moving from Debian Testing to Arch Linux allowed for a cleaner base, faster package updates via `pacman`, and better customization.
+* **What's Next (LFS)?** Once the Arch-based releases are polished, the long-term goal is experimenting with a **Linux From Scratch (LFS)** build from source.
+
+</details>
+
+---
+
+## 🤝 Credits & Team
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>Creator & Lead Developer</b><br />
+      <a href="https://github.com">motochann / Nyeinchankyaw</a>
+    </td>
+    <td align="center" width="50%">
+      <b>Hardware & ISO Tester</b><br />
+      Yan Myo Aung
+    </td>
+  </tr>
+</table>
+
+---
+
+<div align="center">
+  <sub>Licensed under the <a href="LICENSE">GNU General Public License v2.0</a> • Built with passion for lightweight Linux systems.</sub>
+</div>
