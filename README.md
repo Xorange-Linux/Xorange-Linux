@@ -71,23 +71,21 @@ Originally started on a Debian Testing base, Xorange-Linux has been completely r
 
 | Component | Minimum Specification | Recommended Specification | Notes |
 | :--- | :--- | :--- | :--- |
-| **Architecture** | x86_64 (64-bit) | x86_64 (64-bit) | 64-bit processor required |
+| **Architecture** | x86_64 (64-bit) | only x86_64 (64-bit) | 64-bit processor required |
 | **CPU** | 1 GHz (1 Core) | Dual-Core 1.8 GHz+ | Built & tested on Intel Core i3-3217U |
 | **RAM** | 700 MiB | 2 GiB or more | Low idle memory usage out of the box |
 | **Storage** | 15 GiB | 25 GiB or more | SSD recommended for faster boot & updates |
-| **Boot Media** | USB Drive (4 GiB+) | USB 3.0 Drive (8 GiB+) | Supports standard ISO flashing tools |
+| **Installing Media** | USB Drive (2 GiB+) | USB 3.0 Drive (2 GiB+) | Because recent iso take 1.6gb so |
 
 ---
 
 ## 💿 Installation Guide
 
-1. **Download the ISO:** Go to the [**Releases Page**](https://github.com) and download the latest Xorange-Linux `.iso` file.
-2. **Create a Bootable USB:** Flash the ISO to a USB stick using **Ventoy**, **Rufus** (Windows), or `dd` (Linux):
-   ```bash
-   sudo dd bs=4M if=xorange-linux.iso of=/dev/sdX status=progress oflag=sync
-   ```
-   *(Replace `/dev/sdX` with your actual USB device name.)*
-3. **Boot & Install:** Restart your PC, open your BIOS/UEFI boot menu, select your USB drive, and follow the installation setup.
+|Bootable creator app | Rating(in dev opinion) | Useful for |
+| :--- | :--- | :--- |
+| Ventoy | #### | Useful for managing many iso at once |
+| Rufus | #### | For reviving old tech |
+| Balena Etcher | ##### | same as Rufus
 
 ---
 
@@ -98,7 +96,7 @@ Originally started on a Debian Testing base, Xorange-Linux has been completely r
 <br />
 
 * **Why "Xorange"?** The **"X"** originally stood for the X11 compositor—though moving away from X11 is a priority due to memory leaks and legacy overhead.
-* **Why Codename "Lemon"?** The release codename shifted from *Orange* to *Lemon* because citrus is citrus.
+* **Why Codename "Banana"?** Because orange = banana
 * **Why the Switch from Debian to Arch?** Moving from Debian Testing to Arch Linux allowed for a cleaner base, faster package updates via `pacman`, and better customization.
 * **What's Next (LFS)?** Once the Arch-based releases are polished, the long-term goal is experimenting with a **Linux From Scratch (LFS)** build from source.
 
@@ -112,10 +110,10 @@ Originally started on a Debian Testing base, Xorange-Linux has been completely r
   <tr>
     <td align="center" width="50%">
       <b>Creator & Lead Developer</b><br />
-      <a href="https://github.com">motochann / Nyeinchankyaw</a>
+      <a href="https://github.com/motochannXorangedev/">motochann / Nyeinchankyaw</a>
     </td>
     <td align="center" width="50%">
-      <b>Hardware & ISO Tester</b><br />
+      <b>Beta Tester</b><br />
       Yan Myo Aung
     </td>
   </tr>
