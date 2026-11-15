@@ -3,12 +3,8 @@
   <br />
   <img src="lgo.png" alt="Xorange-Linux Logo" width="115" />
   <br /><br />
-  <p>
-    <img src="https://shields.io" alt="Base: Arch Linux" />
-    <img src="https://shields.io" alt="Codename: Lemon" />
-    <img src="https://shields.io" alt="Package Manager: Pacman" />
-    <img src="https://shields.io" alt="License: GPL-2.0" />
-  </p>
+  <img src="badges.svg" alt="Arch Linux • Lemon • Pacman • GPL-2.0" width="680" />
+  <br /><br />
   <p>
     <a href="#about"><kbd> About </kbd></a>&nbsp;&nbsp;
     <a href="#system-requirements"><kbd> Requirements </kbd></a>&nbsp;&nbsp;
