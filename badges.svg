@@ -1,0 +1,17 @@
+<svg xmlns="http://w3.org" viewBox="0 0 740 38" width="740" height="38">
+  <!-- Badge 1: Base Arch Linux -->
+  <rect x="10" y="4" width="175" height="30" rx="6" fill="#18181b" stroke="#f97316" stroke-width="1.5" />
+  <text x="97" y="23" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">BASE: ARCH LINUX</text>
+
+  <!-- Badge 2: Codename Lemon -->
+  <rect x="197" y="4" width="165" height="30" rx="6" fill="#ea580c" />
+  <text x="279" y="23" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">CODENAME: LEMON</text>
+
+  <!-- Badge 3: Pacman -->
+  <rect x="374" y="4" width="185" height="30" rx="6" fill="#18181b" stroke="#fb923c" stroke-width="1.5" />
+  <text x="466" y="23" font-family="sans-serif" font-size="12" font-weight="700" fill="#fb923c" text-anchor="middle">PKG: PACMAN</text>
+
+  <!-- Badge 4: License GPL-2.0 -->
+  <rect x="571" y="4" width="158" height="30" rx="6" fill="#27272a" />
+  <text x="650" y="23" font-family="sans-serif" font-size="12" font-weight="700" fill="#e4e4e7" text-anchor="middle">LICENSE: GPL-2.0</text>
+</svg>
