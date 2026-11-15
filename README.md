@@ -87,6 +87,8 @@ Originally started on a Debian Testing base, Xorange-Linux has been completely r
 | Rufus | #### | For reviving old tech |
 | Balena Etcher | ##### | same as Rufus
 
+**So after flashing, restart the system and press f12 or esc(depending on your model) and boot the usb and enter and on the login screen, Username:xorange   Pass:x11 and open the installer and put your info,disk and done and reboot**
+
 ---
 
 ## 🍊 Project Background & Roadmap
