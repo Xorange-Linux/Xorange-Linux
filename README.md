@@ -10,8 +10,8 @@
 
   <p>
     <kbd> Base: Arch Linux </kbd>&nbsp;
-    <kbd> Codename: Lemon </kbd>&nbsp;
-    <kbd> Package Manager: Pacman </kbd>&nbsp;
+    <kbd> Codename: Banana </kbd>&nbsp;
+    <kbd> Package Manager: Pacman/yay </kbd>&nbsp;
     <kbd> License: GPL-2.0 </kbd>
   </p>
 
@@ -31,12 +31,12 @@
 
 ## 📖 Overview
 
-**Xorange-Linux** (Codename: **Lemon**) is an independent, lightweight operating system designed to run fast and stay out of your way—especially on older or low-spec laptops. 
+**Xorange-Linux** (Codename: **Banana**) is an independent, lightweight operating system designed to run fast and stay out of your way—especially on older or low-spec laptops. More like ZorinOS but.. it was smoother(i think) and will last forever due to its rolling release
 
 Originally started on a Debian Testing base, Xorange-Linux has been completely rebuilt on **Arch Linux** to take advantage of rolling-release packages, a minimal core footprint, and full control over every component installed on the system.
 
 > [!NOTE]
-> **Hardware Tested:** Xorange-Linux is developed, compiled, and tested directly on an **Intel Core i3-3217U** laptop to ensure smooth performance without needing modern high-end specs.
+> **Not hardware tested!!** for this reason, the iso will not release because its hard to make, turing a qcow to iso is hard
 
 ---
 
@@ -55,12 +55,12 @@ Originally started on a Debian Testing base, Xorange-Linux has been completely r
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🪶 Ultra-Light Footprint</h3>
+      <h3>Very Ultra-Light Distro</h3>
       <p>Stripped of heavy background services and unnecessary bloat so your CPU and RAM stay free for the apps you actually use.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🔓 Free & Open Source</h3>
-      <p>Licensed under <b>GPL-2.0</b>. Anyone can inspect, modify, fork, or contribute to the distribution.</p>
+      <h3>Free and Open Source</h3>
+      <p>Licensed under <b>GPL-2.0</b>. So Anyone can inspect, modify, fork, or contribute to the distribution.</p>
     </td>
   </tr>
 </table>
