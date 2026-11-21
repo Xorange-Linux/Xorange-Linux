@@ -1,11 +1,11 @@
 <div align="center">
 
-  <img src="lgo.png" alt="Xorange-Linux Logo" width="130" />
+  <img src="lgo.svg" alt="Xorange-Linux Logo" width="600" />
 
   <h1>Xorange-Linux</h1>
 
   <p>
-    <strong>A lightweight, fast, and user-friendly Linux distribution built on Arch Linux.</strong>
+    <strong>Fast.Lightweight.Friendly.</strong>
   </p>
 
   <p>
@@ -31,12 +31,12 @@
 
 ## 📖 Overview
 
-**Xorange-Linux** (Codename: **Banana**) is an independent, lightweight operating system designed to run fast and stay out of your way—especially on older or low-spec laptops. More like ZorinOS but.. it was smoother(i think) and will last forever due to its rolling release
+**Xorange-Linux** (Codename: **Banana**) is an independent, lightweight operating system designed to run fast especially on older or low-spec laptops. More like ZorinOS but.. it was smoother(i think) and will last forever due to its rolling release
 
 Originally started on a Debian Testing base, Xorange-Linux has been completely rebuilt on **Arch Linux** to take advantage of rolling-release packages, a minimal core footprint, and full control over every component installed on the system.
 
 > [!NOTE]
-> **Not hardware tested!!** for this reason, the iso will not release because its hard to make, turing a qcow to iso is hard
+> **Not hardware tested!!** for this reason, the iso will not release because its hard to make, turning a qcow2 img to iso is hard
 
 ---
 
@@ -94,13 +94,11 @@ Originally started on a Debian Testing base, Xorange-Linux has been completely r
 ## 🍊 Project Background & Roadmap
 
 <details>
-<summary><b>Click to read the full story behind Xorange-Linux</b></summary>
+<summary><b>Info about Xorange Linux</b></summary>
 <br />
 
-* **Why "Xorange"?** The **"X"** originally stood for the X11 compositor—though moving away from X11 is a priority due to memory leaks and legacy overhead.
-* **Why Codename "Banana"?** Because orange = banana
-* **Why the Switch from Debian to Arch?** Moving from Debian Testing to Arch Linux allowed for a cleaner base, faster package updates via `pacman`, and better customization.
-* **What's Next (LFS)?** Once the Arch-based releases are polished, the long-term goal is experimenting with a **Linux From Scratch (LFS)** build from source.
+**From Lead dev**
+*Before i started Xorange Linux, i started 2 distro, one is called Astra OS but the name ASTRA was taken by the russia gov. In this distro, i didnt use xfce, instand, i use lxqt because i think that lxqt is more lightweight and in that time, i didnt know what is xfce or kde or others. The footage is on tiktok, just search Astra os by motochanninalt, After that my laptop broke and i had to fix myself, so after 5 month, i started again, now Xorange Linux 
 
 </details>
 
